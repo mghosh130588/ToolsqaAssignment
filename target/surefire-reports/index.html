@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.toolsqa.Testlocal" hash-for-method="postjirs">postjirs</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.toolsqa.Testlocal" hash-for-method="draggable">draggable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.toolsqa.Testlocal" hash-for-method="selectMenu">selectMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.toolsqa.Testlocal" hash-for-method="selecttext">selecttext</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -124,9 +134,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="postjirs">
-                  </a> <!-- postjirs -->
-                  <span class="method-name">postjirs</span>
+                  <a name="draggable">
+                  </a> <!-- draggable -->
+                  <span class="method-name">draggable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMenu">
+                  </a> <!-- selectMenu -->
+                  <span class="method-name">selectMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecttext">
+                  </a> <!-- selecttext -->
+                  <span class="method-name">selecttext</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postjirs')
+data.setCell(0, 1, 'draggable')
 data.setCell(0, 2, 'com.toolsqa.Testlocal')
-data.setCell(0, 3, 1466);
+data.setCell(0, 3, 13510);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectMenu')
+data.setCell(1, 2, 'com.toolsqa.Testlocal')
+data.setCell(1, 3, 3247);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selecttext')
+data.setCell(2, 2, 'com.toolsqa.Testlocal')
+data.setCell(2, 3, 3246);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -228,12 +260,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">postjirs</span>
-                <span class="method-start">2883 ms</span>
+                <span class="method-name">selecttext</span>
+                <span class="method-start">3170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">draggable</span>
+                <span class="method-start">6417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectMenu</span>
+                <span class="method-start">19928 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">4350 ms</span>
+                <span class="method-start">23175 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="4497" started-at="2022-04-29T13:38:11Z" finished-at="2022-04-29T13:38:15Z">
+  <suite name="All Test Suite" duration-ms="23436" started-at="2022-04-30T00:26:03Z" finished-at="2022-04-30T00:26:26Z">
     <groups>
     </groups>
-    <test name="testone" duration-ms="4497" started-at="2022-04-29T13:38:11Z" finished-at="2022-04-29T13:38:15Z">
+    <test name="testone" duration-ms="23436" started-at="2022-04-30T00:26:03Z" finished-at="2022-04-30T00:26:26Z">
       <class name="com.toolsqa.Testlocal">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="beforeClass" is-config="true" duration-ms="2881" started-at="2022-04-29T14:38:11Z" finished-at="2022-04-29T14:38:14Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.toolsqa.Testlocal@22f71333]" name="beforeClass" is-config="true" duration-ms="3162" started-at="2022-04-30T01:26:03Z" finished-at="2022-04-30T01:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="postjirs()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="postjirs" duration-ms="1466" started-at="2022-04-29T14:38:14Z" finished-at="2022-04-29T14:38:15Z">
+        <test-method status="PASS" signature="selecttext()[pri:0, instance:com.toolsqa.Testlocal@22f71333]" name="selecttext" duration-ms="3246" started-at="2022-04-30T01:26:06Z" finished-at="2022-04-30T01:26:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postjirs -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="quitbrowser" is-config="true" duration-ms="138" started-at="2022-04-29T14:38:15Z" finished-at="2022-04-29T14:38:15Z">
+        </test-method> <!-- selecttext -->
+        <test-method status="PASS" signature="draggable()[pri:0, instance:com.toolsqa.Testlocal@22f71333]" name="draggable" duration-ms="13510" started-at="2022-04-30T01:26:09Z" finished-at="2022-04-30T01:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draggable -->
+        <test-method status="PASS" signature="selectMenu()[pri:0, instance:com.toolsqa.Testlocal@22f71333]" name="selectMenu" duration-ms="3247" started-at="2022-04-30T01:26:23Z" finished-at="2022-04-30T01:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMenu -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.toolsqa.Testlocal@22f71333]" name="quitbrowser" is-config="true" duration-ms="253" started-at="2022-04-30T01:26:26Z" finished-at="2022-04-30T01:26:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitbrowser -->

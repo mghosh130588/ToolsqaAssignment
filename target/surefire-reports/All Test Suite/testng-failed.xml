@@ -5,7 +5,8 @@
     <classes>
       <class name="com.toolsqa.Testlocal">
         <methods>
-          <include name="postjirs"/>
+          <include name="datepicker"/>
+          <include name="quitbrowser"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.toolsqa.Testlocal -->
