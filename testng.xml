@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="testone">
+    <test verbose="2" preserve-order="true"
+          name="testInteraction">
         <classes>
-            <class name="com.toolsqa.Testlocal">
-            <methods>
-                <include name="postjirs"/>
-            </methods>
-        </class>
+        <class name ="com.toolsqa.SelectTextTest" />
         </classes>
     </test>
 </suite>
