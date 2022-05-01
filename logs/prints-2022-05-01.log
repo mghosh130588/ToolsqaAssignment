@@ -1,0 +1,6 @@
+23:58:18.257 [main] INFO  resources.TestBase - Blueis selected
+23:58:18.259 [main] INFO  resources.TestBase - selectolddropdown is passed
+23:58:18.647 [main] INFO  resources.TestBase - ******multipleselectolddrop is started ***********
+23:58:19.157 [main] INFO  resources.TestBase - Multiple options selected is [Ljava.lang.String;@2d8f2f3a
+23:58:19.157 [main] INFO  resources.TestBase - multipleselectolddrop is passed
+23:58:19.425 [main] INFO  resources.TestBase - ******multipleselectolddrop is started ***********

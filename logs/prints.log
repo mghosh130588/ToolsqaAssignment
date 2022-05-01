@@ -1,0 +1,5 @@
+23:58:19.709 [main] INFO  resources.TestBase - Multiple options selected is [Ljava.lang.String;@7561db12
+23:58:19.712 [main] INFO  resources.TestBase - multipleselectolddrop is passed
+23:58:20.704 [main] INFO  resources.TestBase - Browser closed
+23:58:21.597 [main] INFO  resources.TestBase - Browser closed
+23:58:21.618 [main] INFO  resources.TestBase - $$$$$$$All Test Suite is finished $$$$$$$
