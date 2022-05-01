@@ -39,6 +39,7 @@ public class SelectTextTest extends TestBase {
 
     @Test(priority =0)
     public void verifySelectPageOpen(){
+
         sc = new SelectablePage(driver, "Selectable");
     }
 
@@ -65,7 +66,7 @@ public class SelectTextTest extends TestBase {
     public void aftertestmethod(){
         driver.navigate().refresh();
     }
-    @AfterClass
+    @AfterTest
     public void closebrowser(){
         driver.quit();
     }

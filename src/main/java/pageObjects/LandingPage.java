@@ -14,11 +14,21 @@ public class LandingPage extends WidgetPage{
         this.driver=driver;
     }
     By interaction = By.xpath("//*[text()='Interactions']");
+    By Widgets = By.xpath("//*[text()='Widgets']");
+
     public void clickOnInteractions(){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", driver.findElement(interaction));
         driver.findElement(interaction).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
         verifyinteractionhomepage();
+    }
+
+    public void clickOnWidgest(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView();", driver.findElement(Widgets));
+        driver.findElement(Widgets).click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
+        verifyWidgetspage();
     }
 }
