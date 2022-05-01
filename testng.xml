@@ -5,6 +5,7 @@
           name="testInteraction">
         <classes>
         <class name ="com.toolsqa.SelectTextTest" />
+        <class name="com.toolsqa.SelectFormTest" />
         </classes>
     </test>
 </suite>

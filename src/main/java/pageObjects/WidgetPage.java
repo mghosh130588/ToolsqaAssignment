@@ -21,6 +21,7 @@ public class WidgetPage {
     By header = By.cssSelector("div.main-header");
     By selectable = By.xpath("//*[text() = 'Selectable']");
     By Droppable = By.xpath("//*[text() = 'Droppable']");
+    By selectmenu = By.xpath("//*[text()='Select Menu']");
 
 
     public WebElement headerelement(){
@@ -36,6 +37,10 @@ public class WidgetPage {
             js.executeScript("arguments[0].scrollIntoView();", driver.findElement(Droppable));
             driver.findElement(Droppable).click();
         }
+        if(groupname.equalsIgnoreCase("Select Menu")){
+            js.executeScript("arguments[0].scrollIntoView();", driver.findElement(selectmenu));
+            driver.findElement(selectmenu).click();
+        }
     }
 
     public void verifyinteractionhomepage(){
@@ -44,6 +49,14 @@ public class WidgetPage {
         wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(header),"Interactions"));
         System.out.println("Interactions page is opened.");
     }
+
+    public void verifyWidgetspage(){
+        // wp = new WidgetPage(driver);
+        wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(header),"Widgets"));
+        System.out.println("Widgets page is opened.");
+    }
+
     public void NavigatetoSelectable(String groupname){
 
         clickonMenut(groupname);

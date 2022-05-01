@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="4497" started-at="2022-04-29T13:38:11Z" finished-at="2022-04-29T13:38:15Z">
+  <suite name="All Test Suite" duration-ms="31810" started-at="2022-05-01T01:06:38Z" finished-at="2022-05-01T01:07:10Z">
     <groups>
     </groups>
-    <test name="testone" duration-ms="4497" started-at="2022-04-29T13:38:11Z" finished-at="2022-04-29T13:38:15Z">
-      <class name="com.toolsqa.Testlocal">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="beforeClass" is-config="true" duration-ms="2881" started-at="2022-04-29T14:38:11Z" finished-at="2022-04-29T14:38:14Z">
+    <test name="testInteraction" duration-ms="31810" started-at="2022-05-01T01:06:38Z" finished-at="2022-05-01T01:07:10Z">
+      <class name="com.toolsqa.SelectFormTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="openBrowser" is-config="true" duration-ms="5293" started-at="2022-05-01T02:06:38Z" finished-at="2022-05-01T02:06:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="postjirs()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="postjirs" duration-ms="1466" started-at="2022-04-29T14:38:14Z" finished-at="2022-04-29T14:38:15Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="openBrowser" is-config="true" duration-ms="4280" started-at="2022-05-01T02:06:43Z" finished-at="2022-05-01T02:06:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postjirs -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.toolsqa.Testlocal@6108b2d7]" name="quitbrowser" is-config="true" duration-ms="138" started-at="2022-04-29T14:38:15Z" finished-at="2022-04-29T14:38:15Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="clickonWidgets()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="clickonWidgets" is-config="true" duration-ms="2409" started-at="2022-05-01T02:07:04Z" finished-at="2022-05-01T02:07:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitbrowser -->
-      </class> <!-- com.toolsqa.Testlocal -->
-    </test> <!-- testone -->
+        </test-method> <!-- clickonWidgets -->
+        <test-method status="PASS" signature="verifySelectMenuOpen()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="verifySelectMenuOpen" duration-ms="589" started-at="2022-05-01T02:07:07Z" finished-at="2022-05-01T02:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectMenuOpen -->
+        <test-method status="PASS" signature="selectolddropdown()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="selectolddropdown" duration-ms="321" started-at="2022-05-01T02:07:07Z" finished-at="2022-05-01T02:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectolddropdown -->
+        <test-method status="PASS" signature="multipleselectolddrop()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="multipleselectolddrop" duration-ms="588" started-at="2022-05-01T02:07:08Z" finished-at="2022-05-01T02:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleselectolddrop -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.toolsqa.SelectFormTest@73f792cf]" name="closebrowser" is-config="true" duration-ms="729" started-at="2022-05-01T02:07:08Z" finished-at="2022-05-01T02:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="closebrowser" is-config="true" duration-ms="804" started-at="2022-05-01T02:07:09Z" finished-at="2022-05-01T02:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.toolsqa.SelectFormTest -->
+      <class name="com.toolsqa.SelectTextTest">
+        <test-method status="PASS" signature="clickonInteractions()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="clickonInteractions" is-config="true" duration-ms="2742" started-at="2022-05-01T02:06:47Z" finished-at="2022-05-01T02:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonInteractions -->
+        <test-method status="PASS" signature="verifySelectPageOpen()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="verifySelectPageOpen" duration-ms="605" started-at="2022-05-01T02:06:50Z" finished-at="2022-05-01T02:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectPageOpen -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="aftertestmethod" is-config="true" duration-ms="1658" started-at="2022-05-01T02:06:51Z" finished-at="2022-05-01T02:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="SelectLinks()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="SelectLinks" duration-ms="1828" started-at="2022-05-01T02:06:53Z" finished-at="2022-05-01T02:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLinks -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="aftertestmethod" is-config="true" duration-ms="1606" started-at="2022-05-01T02:06:54Z" finished-at="2022-05-01T02:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="VerifyDroppable()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="VerifyDroppable" duration-ms="768" started-at="2022-05-01T02:06:56Z" finished-at="2022-05-01T02:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDroppable -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="aftertestmethod" is-config="true" duration-ms="1336" started-at="2022-05-01T02:06:57Z" finished-at="2022-05-01T02:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="simpledragdrop()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="simpledragdrop" duration-ms="1499" started-at="2022-05-01T02:06:58Z" finished-at="2022-05-01T02:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpledragdrop -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="aftertestmethod" is-config="true" duration-ms="1099" started-at="2022-05-01T02:07:00Z" finished-at="2022-05-01T02:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="AcceptNotAcceptdragdrop()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="AcceptNotAcceptdragdrop" duration-ms="2527" started-at="2022-05-01T02:07:01Z" finished-at="2022-05-01T02:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptNotAcceptdragdrop -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:com.toolsqa.SelectTextTest@6cd8737]" name="aftertestmethod" is-config="true" duration-ms="1108" started-at="2022-05-01T02:07:03Z" finished-at="2022-05-01T02:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+      </class> <!-- com.toolsqa.SelectTextTest -->
+    </test> <!-- testInteraction -->
   </suite> <!-- All Test Suite -->
 </testng-results>

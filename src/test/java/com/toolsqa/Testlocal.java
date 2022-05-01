@@ -28,7 +28,6 @@ public class Testlocal{
         driver.get("https://demoqa.com/selectable/");
         System.out.println("Initial run");
     }
-
     @AfterClass
     public void quitbrowser() {
         driver.quit();
