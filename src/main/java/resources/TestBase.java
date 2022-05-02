@@ -6,6 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,22 +16,27 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-    public WebDriver driver;
-    public String driverpath = "//Users//mousumighosh//Selenium//Driver//";
+    public static WebDriver driver;
+    //public String driverpath = "//Users//mousumighosh//Selenium//Driver//";
     Properties prop;
 
     public WebDriver initializedriver() throws IOException {
 
-        String browsername = getPropertyValue("browser");
+        //String browsername = getPropertyValue("browser");
+        String browsername = System.getProperty("browser");
         if(browsername.equalsIgnoreCase("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver",driverpath+"chromedriver");
+            System.setProperty("webdriver.chrome.driver","./Driver/chromedriver");
             driver = new ChromeDriver();
             System.out.println("Browser initialized");
 
-        }else if(browsername.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", driverpath + "geckodriver");
-            driver = new FirefoxDriver();
+        }else if(browsername.contains("firefox")) {
+            System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver");
+            System.out.println(browsername);
+            FirefoxOptions options = new FirefoxOptions();
+            if(browsername.contains("headless"))
+                options.addArguments("--headless");
+            driver = new FirefoxDriver(options);
             System.out.println("Browser initialized");
         }
         return driver;

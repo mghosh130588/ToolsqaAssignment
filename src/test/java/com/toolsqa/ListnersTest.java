@@ -15,6 +15,7 @@ import resources.TestBase;
 import java.io.IOException;
 
 public class ListnersTest extends TestBase implements ITestListener {
+
     public  static Logger log = LogManager.getLogger(TestBase.class.getName());
     ExtentTest test;
     ExtentReports extent = EntentReportNG.getReportObject();
@@ -30,6 +31,7 @@ public class ListnersTest extends TestBase implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         extentTest.get().log(Status.PASS,"Test Pass");
+        WebDriver driver =null;
         String dest = "./screenshots/passtest/";
         String methodname = iTestResult.getMethod().getMethodName();
         log.info(methodname+" is passed");
@@ -49,6 +51,7 @@ public class ListnersTest extends TestBase implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         extentTest.get().fail(iTestResult.getThrowable());
+        WebDriver driver =null;
         String dest = "./screenshots/Failedtest/";
         String methodname = iTestResult.getMethod().getMethodName();
         log.info(methodname+" is failed");

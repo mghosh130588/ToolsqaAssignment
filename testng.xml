@@ -5,10 +5,15 @@
         <listener class-name="com.toolsqa.ListnersTest"/>
     </listeners>
     <test verbose="2" preserve-order="true"
+          name="testmenu">
+        <classes>
+            <class name="com.toolsqa.SelectFormTest" />
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
           name="testInteraction">
         <classes>
             <class name="com.toolsqa.SelectTextTest" />
-            <class name="com.toolsqa.SelectFormTest" />
         </classes>
     </test>
 </suite>
