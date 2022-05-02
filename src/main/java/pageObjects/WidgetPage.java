@@ -18,10 +18,10 @@ public class WidgetPage {
         this.driver = driver;
     }
 
-    By header = By.cssSelector("div.main-header");
-    By selectable = By.xpath("//*[text() = 'Selectable']");
-    By Droppable = By.xpath("//*[text() = 'Droppable']");
-    By selectmenu = By.xpath("//*[text()='Select Menu']");
+    private By header = By.cssSelector("div.main-header");
+    private By selectable = By.xpath("//*[text() = 'Selectable']");
+    private By Droppable = By.xpath("//*[text() = 'Droppable']");
+    private By selectmenu = By.xpath("//*[text()='Select Menu']");
 
 
     public WebElement headerelement(){

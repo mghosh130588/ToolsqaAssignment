@@ -24,13 +24,13 @@ public class Drropable extends WidgetPage{
             NavigatetoSelectable(menuname);
         }
 
-       By simpledragcontainer = By.id("simpleDropContainer");
-        By drag = By.id("draggable");
-        By drop = By.id("droppable");
-        By Accepttab = By.xpath("//*[@id = 'droppableExample-tab-accept']");
-    By Acceptabledrag = By.id("acceptable");
-    By acceptdrop = By.xpath("//*[@id='acceptDropContainer']/div[2]");
-    By notAcceptDrop = By.id("notAcceptable");
+       private By simpledragcontainer = By.id("simpleDropContainer");
+       private By drag = By.id("draggable");
+        private By drop = By.id("droppable");
+        private By Accepttab = By.xpath("//*[@id = 'droppableExample-tab-accept']");
+    private By Acceptabledrag = By.id("acceptable");
+   private By acceptdrop = By.xpath("//*[@id='acceptDropContainer']/div[2]");
+   private By notAcceptDrop = By.id("notAcceptable");
 
         public WebElement getdrag(){
             return driver.findElement(drag);

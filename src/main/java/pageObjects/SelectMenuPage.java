@@ -12,8 +12,8 @@ public class SelectMenuPage extends WidgetPage{
 
 
     WebDriver driver;
-    By selectauto = By.id("oldSelectMenu");
-    By selectmulti = By.id("cars");
+    private By selectauto = By.id("oldSelectMenu");
+    private By selectmulti = By.id("cars");
 
     public SelectMenuPage(WebDriver driver,String menuname){
         super(driver);

@@ -13,8 +13,8 @@ public class LandingPage extends WidgetPage{
         super(driver);
         this.driver=driver;
     }
-    By interaction = By.xpath("//*[text()='Interactions']");
-    By Widgets = By.xpath("//*[text()='Widgets']");
+    private By interaction = By.xpath("//*[text()='Interactions']");
+    private By Widgets = By.xpath("//*[text()='Widgets']");
 
     public void clickOnInteractions(){
         JavascriptExecutor js = (JavascriptExecutor) driver;

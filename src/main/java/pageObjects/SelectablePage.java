@@ -20,7 +20,7 @@ public class SelectablePage extends WidgetPage{
     }
 
 
-    By listitems = By.xpath("//*[@id = 'verticalListContainer']/li");
+    private By listitems = By.xpath("//*[@id = 'verticalListContainer']/li");
 
 /*public void NavigatetoSelectable(String groupname){
 
