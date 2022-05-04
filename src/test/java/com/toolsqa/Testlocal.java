@@ -2,6 +2,8 @@ package com.toolsqa;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,8 +17,12 @@ public class Testlocal{
     @BeforeClass
     public void beforeClass() {
 
-        System.setProperty("webdriver.chrome.driver",driverpath);
-        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver",driverpath);
+
+        //DesiredCapabilities cap = DesiredCapabilities.firefox();
+       // cap.setCapability("marionette", true);
+        driver = new FirefoxDriver();
+
         driver.manage().window().maximize();
         System.out.println("Browser opened");
     }
