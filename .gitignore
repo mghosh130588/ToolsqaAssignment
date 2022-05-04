@@ -1,3 +1,11 @@
- .idea/
-        Screenshot/
-        target/classes/com/toolsqa/Utils.class
+.idea/
+.screenshot/*
+.target/*
+.target/classes/*
+.target/*
+.logs/*
+.screenshots/*
+
+
+
+
